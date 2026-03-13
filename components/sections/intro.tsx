@@ -21,7 +21,7 @@ export function IntroSection() {
         >
           I&apos;m Veluvolu Deepak
         </h1>
-        <p className="mt-2 text-sm font-medium text-[var(--foreground)]/70 sm:text-base">
+        <p className="mt-3 text-base font-medium text-[var(--foreground)]/70 sm:text-lg">
           I work on{" "}
           <span className="font-semibold text-[var(--foreground)]">Full-Stack Engineering</span>,{" "}
           <span className="font-semibold text-[var(--foreground)]">Applied AI</span>, and{" "}
