@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpRight, Menu, X } from "lucide-react";
+import { ArrowUpRight, Calendar, Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -161,13 +161,13 @@ export function FloatingNav() {
           </div>
           <div className="flex items-center gap-2">
             <a
-              href="https://cal.com/veluvoludeepak"
+              href="https://cal.com/veluvoludeepak/30min?overlayCalendar=true"
               target="_blank"
               rel="noreferrer noopener"
               className="inline-flex items-center gap-1.5 rounded-full border border-gray-200 px-4 py-1.5 text-sm font-medium text-gray-600 transition hover:border-gray-900 hover:text-gray-900"
             >
+              <Calendar className="size-3.5" aria-hidden />
               Meet
-              <ArrowUpRight className="size-3" aria-hidden />
             </a>
             <a
               href="https://drive.google.com/file/d/1TfKXal7HvtkOFfynnhNB4ma5UzBcoCOF/view"
@@ -253,13 +253,13 @@ export function FloatingNav() {
         </ul>
         <div className="mt-4 flex flex-col gap-2">
           <a
-            href="https://cal.com/veluvoludeepak"
+            href="https://cal.com/veluvoludeepak/30min?overlayCalendar=true"
             target="_blank"
             rel="noreferrer noopener"
             className="flex w-full items-center justify-center gap-1.5 rounded-full border border-gray-200 px-4 py-2.5 text-sm font-semibold text-gray-600 transition hover:border-gray-900 hover:text-gray-900"
           >
+            <Calendar className="size-3.5" aria-hidden />
             Meet
-            <ArrowUpRight className="size-3.5" aria-hidden />
           </a>
           <a
             href="https://drive.google.com/file/d/1TfKXal7HvtkOFfynnhNB4ma5UzBcoCOF/view"

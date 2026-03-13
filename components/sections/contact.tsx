@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Check, Copy } from "lucide-react";
+import { Calendar, Check, Copy } from "lucide-react";
 import { useState } from "react";
 import { Reveal } from "@/components/ui/reveal";
 import { ThemeHeading } from "@/components/ui/theme-heading";
@@ -66,13 +66,13 @@ export function ContactSection() {
 
           {/* Book a call */}
           <a
-            href="https://cal.com/veluvoludeepak"
+            href="https://cal.com/veluvoludeepak/30min?overlayCalendar=true"
             target="_blank"
             rel="noreferrer noopener"
             className="inline-flex items-center gap-2 rounded-full border border-gray-200 px-5 py-2.5 text-sm font-semibold text-gray-600 transition hover:border-gray-900 hover:text-gray-900"
           >
+            <Calendar className="size-4" aria-hidden />
             Book a call
-            <span aria-hidden>↗</span>
           </a>
         </div>
       </Reveal>
