@@ -43,12 +43,12 @@ export function ContactSection() {
         </p>
       </Reveal>
       <Reveal delay={0.15}>
-        <div className="flex flex-col gap-4 pt-2 sm:flex-row sm:items-center sm:gap-3">
+        <div className="flex flex-col gap-3 pt-2 sm:flex-row sm:items-center sm:gap-3">
           {/* Email copy button */}
-          <div className="relative">
+          <div className="relative w-full sm:w-auto">
             <button
               onClick={handleCopy}
-              className="inline-flex items-center gap-2 rounded-full border border-gray-200 px-5 py-2.5 text-sm font-semibold text-gray-600 transition hover:border-gray-900 hover:text-gray-900"
+              className="flex w-full items-center justify-center gap-2 rounded-full border border-gray-200 px-5 py-2.5 text-sm font-semibold text-gray-600 transition hover:border-gray-900 hover:text-gray-900 sm:w-auto sm:inline-flex"
             >
               deepakveluvolu9@gmail.com
               {copied ? (
@@ -69,7 +69,7 @@ export function ContactSection() {
             href="https://cal.com/veluvoludeepak/30min?overlayCalendar=true"
             target="_blank"
             rel="noreferrer noopener"
-            className="inline-flex items-center gap-2 rounded-full border border-gray-200 px-5 py-2.5 text-sm font-semibold text-gray-600 transition hover:border-gray-900 hover:text-gray-900"
+            className="flex w-full items-center justify-center gap-2 rounded-full border border-gray-200 px-5 py-2.5 text-sm font-semibold text-gray-600 transition hover:border-gray-900 hover:text-gray-900 sm:w-auto sm:inline-flex"
           >
             <Calendar className="size-4" aria-hidden />
             Book a call
